@@ -14,4 +14,4 @@ Was built under linux and the versions im currently using are
 -CLION 2019.3
 -SDL libsdl2-2.0.0
 
- And all you need to do to run it its to execute the make and then just run the program.
+ And all you need to do to run it its to execute the make and then just run the program
