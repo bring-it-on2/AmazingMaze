@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ajedrez.dir/src/main.cpp.o  -o ajedrez -lSDL2main -lSDL2 
