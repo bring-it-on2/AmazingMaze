@@ -21,8 +21,12 @@ int main () {
 //Osea que no es necesario hacer un ciclo para sacar 1000000 ventanas solo instanciamos 1000000 y ya se ejecuta 1000000 el constructor
 //SplashScreen objetos[4];
 
-//POR AHORA NO VAMOS A PINTAR EL SPLASH SCREEN QUE YA QUEDO
+//Por ahora solo vamos a invocar nuestro splash y despues el menu, esta logica de juego debe ir en la clase GameLogic
     SplashScreen splashObj;
     splashObj.Animation();
+//Aqui mandamos a llamar al menu
+    //Menu menu;
+    //menu.show();
+    
     
 }

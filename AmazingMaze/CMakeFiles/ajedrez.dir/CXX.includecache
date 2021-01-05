@@ -7,6 +7,14 @@
 #IncludeRegexTransform: 
 
 /home/roberto/Documents/CLionProjects/AmazingMaze/src/Menu.cpp
+SDL2/SDL.h
+-
+SDL2/SDL_timer.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_surface.h
+-
 
 /home/roberto/Documents/CLionProjects/AmazingMaze/src/SplashScreen.cpp
 SDL2/SDL.h

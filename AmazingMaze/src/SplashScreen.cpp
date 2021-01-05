@@ -77,15 +77,13 @@ private: void init (){
 
         //Generamos un Render asociado a la ventana
         rend= SDL_CreateRenderer(window,-1,render_flags);
-        if (!rend) printf("Error al generar el render: \n %s",SDL_GetError());
+        if (!rend) printf("Error al generar el render:\n %s",SDL_GetError());
         else  (printf ("Render generado\n\n"));
 
         //Generamos un surface con la imagen (la imagen es cargada a memoria normal)
         surface = SDL_LoadBMP("/home/roberto/Documents/CLionProjects/AmazingMaze/src/res/image.bmp");
         if (!surface){
-            printf("Error sucedio algo %s \n", SDL_GetError());
-        }else (printf ("surface generated: \n\n"));
-
+            printf("Error sucedio algo %s \n", SDL_GetError()); }else (printf ("surface generated: \n\n"));
         //Generamos una textura a partir de la memoria normal (cargamos nuestra imagen a meomria de video)
         text = SDL_CreateTextureFromSurface(rend,surface);
         printf("texture generated: \n");
